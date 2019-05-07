@@ -1,0 +1,89 @@
+body {
+   background: #eee;
+   font-size: 20px;
+}
+
+.red-bg {
+  background-color: #f88;
+}
+
+.title, .subtitle {
+   color: #000;
+}
+
+.title {
+   text-transform: uppercase;
+   font-family: 'Arial', sans-serif;
+   margin-bottom: 5px;
+}
+
+.subtitle, #scores, #generator, #results {
+   font-family: 'Arial', sans-serif;
+}
+
+.subtitle {
+   display: block;
+   padding: 0 0 .5em;
+}
+
+.gen-cell {
+   display: block;
+   width: 90%;
+   max-width: 680px;
+   margin: 0 auto;
+}
+
+#scores {
+   margin: .5em auto 18px;
+   width: 100%;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 7px;
+   transition: .3s all;
+   border: 1px solid #999;
+   padding: 7px 12px;
+   font-size: 2em;
+   transition: .2s all;
+}
+
+#scores:focus, #generator:hover {
+   box-shadow: 0 0 10px 2px indigo;
+   outline: none;
+}
+
+#generator {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 1.5em;
+   background: indigo;
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+   margin: 0 0 .5em;
+   transition: .2s box-shadow ease-in-out;
+}
+
+#generator:hover {
+  cursor: pointer;
+}
+
+#generator:focus {
+   outline: none;
+} 
+
+.key {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+#results {
+   display: block;
+   font-weight: bold;
+   font-size: 4em;
+   line-height: 1;
+   padding-top: 3vh;
+   text-align: center;
+}
